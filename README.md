@@ -28,6 +28,7 @@ git config user.email "thethtarswezin0909@gmail.com"
   
    git clone git@github.com:ThetHtar99/contoso-testing.git contoso-testing
    cd contoso-testing
-   git remote rm origin
+   git remote -v
    git log
+   
 
