@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "aws" {
-   region                   = var.contoso-testing-region
+   region = var.contoso-testing-region
 }
