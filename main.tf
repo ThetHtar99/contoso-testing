@@ -1,4 +1,4 @@
-resource "aws_iam_role" "contoso-testing-region" {
+resource "aws_iam_role" "contoso-testing-management-terraform-role-devops" {
   name     = "contoso-testing-terraform-role-devops"  
   assume_role_policy = jsonencode(
     {
